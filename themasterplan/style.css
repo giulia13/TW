@@ -1,0 +1,282 @@
+
+/*
+Theme Name: the masterplan
+Theme URI: http://exemplo.com/exemplo/
+Description: Um Template WordPress.
+Author: giulia
+Author URI: http://www.anuvio.tumblr.com/
+Version: 1.0
+Tags: simples, minimalista, portfólio
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ 
+.
+ */
+
+/* 1) ÁREA DO AUTOR, COMENTÁRIOS E LINK PARA COMPARTILHAR */
+
+#caixa1{
+	
+	margin-left: 300px;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
+	padding-top: 15px;
+	 	
+}
+
+#caixa2{
+	margin-left: 300px;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
+	border-bottom: 1px solid #DDDDDD;
+	
+	
+}
+#comentarios{
+		padding-top: -15px;
+		display: inline;
+}
+#compartilhe{
+	/*margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px; 
+	*/
+	display: inline;
+	padding-left: 25px;
+	padding-top: -15px;
+ 
+}
+
+ /* FIM DA 1  */
+
+
+.header{
+	margin:0px;
+	width: 0px;
+}
+.container{
+	position: relative;
+	width: 1000px;
+	margin-right: 260px;
+}
+
+#footer{
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 10px;
+
+}
+
+
+.perfil{
+	width: 247px;
+	height: 600px;
+	border: 1 px solid #F8F8F8;
+   	background-color: white;
+	float: left;
+	box-shadow:0px 2px 1px #FAFAFA;
+	border-left: 0px;
+
+	}
+
+
+
+#post{
+	width:1000px;
+	margin-top: 36px;
+	border-radius:4px;
+	border-color: white;
+	border: none;
+	background-color: white;
+	/*float:left;*/
+	position: relative;
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+	
+}
+
+/*.sidebar{
+	width:248px;
+	height: 600px;
+	border: none;
+	background-color: 	white;
+	float: left; 
+   box-shadow:0px 2px 1px #FAFAFA;
+	position: relative;
+	
+	
+}
+
+#fixa{
+	width: 550px;
+	height: 36px;
+	background-color: white;
+	position: absolute;
+	margin-left: 300px;
+	margin-right: 30px;
+	background-color: white;
+	
+}
+*/
+
+#titulopost{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	position:relative;
+	margin-left: 300px;
+	text-transform: uppercase;
+}
+
+.texto{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	color: black;
+	margin-left: 300px;
+	
+}
+#footer{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+/*#b1{
+	font-family: 'Pontano Sans', sans-serif;
+	color: black; 
+	margin-left: 370px;
+	display: inline;
+	padding-right: 20px;
+	font-size: 13px;	
+
+}
+
+#b2{
+	font-family: 'Pontano Sans', sans-serif;
+		color: black;
+		display: inline; 
+		font-size: 13px;
+					
+}*/
+.home{
+		font-family: 'Pontano Sans', sans-serif;
+		color: black; 
+		display: inline;
+		padding-right: 20px;
+		text-decoration:none;
+		font-size: 11px;
+	
+
+}
+
+
+#foto{
+	width: 160px;
+	height: 160px;
+	box-shadow: #000 1px 1px 1px;
+	border-radius:100px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top:35px;
+
+}	
+
+#descricao{
+
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 12px;
+	width: 160px;
+	text-align:justify;
+	height: 190px;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-top: 17px;
+	border-bottom: 1px solid #DDDDDD;
+	
+	
+	
+	
+} 
+
+.link1{
+	width: 248px;
+	height: 25px;
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
+	
+	color:black;
+   -webkit-transition: all 400ms ;
+   -moz-transition: all 400ms ;
+   transition: all 400ms ;
+    border-bottom: 1px solid #DDDDDD;
+   
+   
+	
+}
+div.perfil:hover {
+
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	border-right: 0px;
+
+	}
+
+
+
+	div.sidebar:hover {
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+
+	}
+	#layout{
+		background-color: red;
+	}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+    font-weight: bold; 
+     background-color: yellow;
+}
+
+a:visited {
+	color: #808080;
+}
+
+#blogtitulo{
+	font-size:15px;
+	font-weight:100;
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+#esconder{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	border-radius: 100px;
+	background-color: #FF6666;
+	margin-right: 40px;
+
+	
+}
+
+
+

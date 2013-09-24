@@ -1,13 +1,12 @@
 <div class = "perfil">
 		
-		<div id = "foto"></div>
+		<div id = "foto"><?php echo get_avatar (get_the_author_id() , 160 ); ?></div>
 		<p id="blogtitulo"><?php bloginfo('name') ?></p>
 		<div id = "descricao"><p><?php bloginfo('description'); ?></p></div>
 		
-			
-		<?php wp_list_pages('title_li='); ?>
-		<div class="link1"><h2 ><?php _e('Categories'); ?></h2></div>
-		<div class="link1"><h2 ><?php _e('Archives'); ?></h2></div>
+		
+		<div class="link1"><a href="<?php _e('categories'); ?>">categorias</a></div>
+		<div class="link1"><a href="<?php _e('archives'); ?>">arquivos</a></div>
 		
 		
 </div>

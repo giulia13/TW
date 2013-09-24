@@ -53,6 +53,63 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  /* FIM DA 1  */
 
 
+/* 2) SIDEBAR  */
+
+.perfil{
+	
+	width: 247px;
+	height: 600px;
+	border: 1 px solid #F8F8F8;
+   	background-color: white;
+	box-shadow:0px 2px 1px #FAFAFA;
+	position: absolute;
+	
+	}
+
+/* FIM DA 2 */
+
+
+/* 3) TÍTULO E DATA */
+
+#linha1{
+	
+
+}
+#titulopost{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 300px;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+#data{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 10px;
+	text-align: left;
+	margin-left: 300px;
+}
+/* FIM DA 3 */
+
+
+/* 4)CAIXA DE BUSCA */
+
+.buscar{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 13px;
+}
+.caixabusca{
+	padding-left: 1100px;
+	margin-top: 1px;
+
+}
+/* FIM DA 4*/
+
+
+
+
+
 .header{
 	margin:0px;
 	width: 0px;
@@ -67,20 +124,11 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	text-align: center;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 10px;
-
+	width: 1333px;
 }
 
 
-.perfil{
-	width: 247px;
-	height: 600px;
-	border: 1 px solid #F8F8F8;
-   	background-color: white;
-	float: left;
-	box-shadow:0px 2px 1px #FAFAFA;
-	border-left: 0px;
 
-	}
 
 
 
@@ -91,7 +139,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	border-color: white;
 	border: none;
 	background-color: white;
-	/*float:left;*/
+	float:left;
 	position: relative;
 	/*margin-left: 15px;
 	margin-right: 15px;*/
@@ -122,16 +170,9 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 }
 */
 
-#titulopost{
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 14px;
-	text-align: left;
-	position:relative;
-	margin-left: 300px;
-	text-transform: uppercase;
-}
 
 .texto{
+
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 13px;
 	text-align: justify;
@@ -142,7 +183,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 #footer{
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 11px;
-	
+	clear: both;
 	
 	
 	
@@ -197,7 +238,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 12px;
-	width: 160px;
+	width: 150px; /* 160 */
 	text-align:justify;
 	height: 190px;
 	padding-left: 45px;

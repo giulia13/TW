@@ -1,7 +1,8 @@
 <?php get_header(); ?> 
-<div class="caixabusca"><?php get_search_form(); ?></div>
 
 <div class = "container">
+	<div class="home"><a href="<?php bloginfo('home'); ?>">home</a></div>
+
 
 
 	<?php 	if(have_posts()) : while(have_posts()) : the_post();  ?>
@@ -36,5 +37,3 @@
 	<?php endif; ?>
 		
 </div>
-<?php get_sidebar(); ?>	
-	<?php get_footer(); ?>		

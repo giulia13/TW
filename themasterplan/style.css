@@ -118,6 +118,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	position: relative;
 	width: 1000px;
 	margin-right: 260px;
+
 }
 
 #footer{
@@ -213,11 +214,12 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 }*/
 .home{
 		font-family: 'Pontano Sans', sans-serif;
-		color: black; 
-		display: inline;
-		padding-right: 20px;
+		color: black;
+		margin-left: 500px; 
+		text-align: center;
 		text-decoration:none;
 		font-size: 11px;
+		clear: both;
 	
 
 }

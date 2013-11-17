@@ -6,7 +6,7 @@ Description: Um Template WordPress.
 Author: giulia
 Author URI: http://www.anuvio.tumblr.com/
 Version: 1.0
-Tags: simples, minimalista, portfÛlio
+Tags: simples, minimalista, portf√≥lio
 .
 Your theme can be your copyrighted work.
 Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
@@ -16,25 +16,18 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 .
  */
 
-/* 1) ¡REA DO AUTOR, COMENT¡RIOS E LINK PARA COMPARTILHAR */
+/* 1) √ÅREA DO AUTOR, COMENT√ÅRIOS E LINK PARA COMPARTILHAR */
 
-#caixa1{
+#caixa{
 	
-	margin-left: 300px;
+	padding: 5px;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 11px;
-	padding-top: 15px;
+	background-color: white;
 	 	
 }
 
-#caixa2{
-	margin-left: 300px;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 11px;
-	border-bottom: 1px solid #DDDDDD;
-	
-	
-}
+
 #comentarios{
 		padding-top: -15px;
 		display: inline;
@@ -47,7 +40,16 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	display: inline;
 	padding-left: 25px;
 	padding-top: -15px;
+
  
+}
+.data{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 10px;
+	margin-top: -3px;
+	font-color: gray;
+	text-align: left;
+	
 }
 
  /* FIM DA 1  */
@@ -57,43 +59,119 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 .perfil{
 	
-	width: 247px;
-	height: 600px;
-	border: 1 px solid #F8F8F8;
-   	background-color: white;
-	box-shadow:0px 2px 1px #FAFAFA;
+	/*width: 247px;*/
+	width: 20%;
+	background-color: white;
+	/*box-shadow:0px 2px 1px #FAFAFA;*/
 	position: absolute;
+	top: 4%;
+	height: auto;
+	/*margin-left: 13%; */
+	left: 2%;
+	padding-bottom: 10px;
+}
+	
+
 	
 	}
+
+/*.desaparecer{
+width: 10px;
+height: 10px;
+box-shadow: #000 1px 1px 1px;
+border-radius:100px;
+background-color: black;
+position: relative;
+margin: auto;
+color: white;
+font-size: 10px;
+
+}	
+.aparecer{
+width: 10px;
+height: 10px;
+border-radius:100px;
+background-color: #DDDDDD;
+margin-left: 115px;
+font-size: 10px;
+z-index: 2;
+
+}	
+*/
+#avatar{
+margin: 0 auto;
+
+
+}
+
+#descricao{
+
+font-family: 'Pontano Sans', sans-serif;
+font-size: 12px;
+width: 150px; /* 160 */
+text-align:justify;
+margin: 0 auto;
+margin-top: 17px;
+border-bottom: 1px solid #DDDDDD;
+
+	
+	
+} 
+
+.widget{
+	width: 150px;
+	text-align: left;
+	font-family: 'Pontano Sans', sans-serif;
+	margin: 0 auto;
+	font-size: 11px;
+	border-bottom: 1px solid #DDDDDD;
+	
+   }
+
+#blogtitulo{
+	font-size:17px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3%;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Sintony', sans-serif;
+	background-color: white;
+
+}
+
+
+   
+/*color:black;
+   -webkit-transition: all 400ms ;
+   -moz-transition: all 400ms ;
+   transition: all 400ms ;
+    border-bottom: 1px solid #DDDDDD;*/   
+	
 
 /* FIM DA 2 */
 
 
-/* 3) TÕTULO E DATA */
+/* 3) T√çTULO E DATA */
 
 #linha1{
 	
 
 }
 #titulopost{
+	padding: 5px;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 14px;
 	text-align: left;
-	margin-left: 300px;
 	text-transform: uppercase;
 	text-align: left;
 	
 }
-#data{
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 10px;
-	text-align: left;
-	margin-left: 300px;
-}
+
 /* FIM DA 3 */
 
 
-/* 4)CAIXA DE BUSCA */
+/* 4)CAIXA DE BUSCA 
 
 .buscar{
 	font-family: 'Pontano Sans', sans-serif;
@@ -104,7 +182,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	margin-top: 1px;
 
 }
-/* FIM DA 4*/
+FIM DA 4 */
 
 
 
@@ -112,35 +190,36 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 .header{
 	margin:0px;
-	width: 0px;
+	width:0px;
 }
-.container{
-	position: relative;
-	width: 1000px;
-	margin-right: 260px;
-}
+
+
+
 
 #footer{
+	height: 20px;
+	width: 100%;
+	
+	background-color: #E6E6E6;
+	border-top: 1px solid #B8B8B8;
+	 position:absolute; 
+	 font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
 	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 10px;
-	width: 1333px;
+	padding-top: 10px;
+	
 }
-
-
-
-
 
 
 #post{
-	width:1000px;
-	margin-top: 36px;
-	border-radius:4px;
-	border-color: white;
-	border: none;
+	width:72%;
+	/*margin-top: 36px; */
+	margin-left: 25%;
+	margin-top: 3%;
 	background-color: white;
-	float:left;
-	position: relative;
+	float: left;
+	
+
 	/*margin-left: 15px;
 	margin-right: 15px;*/
 	
@@ -172,22 +251,16 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
 .texto{
-
+	padding: 5px;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 13px;
 	text-align: justify;
 	color: black;
-	margin-left: 300px;
+	
+	border-bottom: 1px solid #DDDDDD;
 	
 }
-#footer{
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 11px;
-	clear: both;
-	
-	
-	
-}
+
 
 
 
@@ -213,59 +286,18 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 }*/
 .home{
 		font-family: 'Pontano Sans', sans-serif;
-		color: black; 
-		display: inline;
-		padding-right: 20px;
+		color: black;
+		margin-left: 500px; 
+		text-align: center;
 		text-decoration:none;
 		font-size: 11px;
+		clear: both;
 	
 
 }
 
 
-#foto{
-	width: 160px;
-	height: 160px;
-	box-shadow: #000 1px 1px 1px;
-	border-radius:100px;
-	background-color: white;
-	margin-left: 50px;
-	margin-top:35px;
 
-}	
-
-#descricao{
-
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 12px;
-	width: 150px; /* 160 */
-	text-align:justify;
-	height: 190px;
-	padding-left: 45px;
-	padding-right: 45px;
-	margin-top: 17px;
-	border-bottom: 1px solid #DDDDDD;
-	
-	
-	
-	
-} 
-
-.link1{
-	width: 248px;
-	height: 25px;
-	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 11px;
-	
-	color:black;
-   -webkit-transition: all 400ms ;
-   -moz-transition: all 400ms ;
-   transition: all 400ms ;
-    border-bottom: 1px solid #DDDDDD;
-   
-   
-	
 }
 div.perfil:hover {
 
@@ -297,18 +329,12 @@ a:hover{
 }
 
 a:visited {
-	color: #808080;
+	color: black;
 }
 
-#blogtitulo{
-	font-size:15px;
-	font-weight:100;
-	text-align:center;
-	text-transform: uppercase;
-	font-family: 'Pontano Sans', sans-serif;
-}
 
-#esconder{
+
+/*#esconder{
 	width: 20px;
 	height: 20px;
 	position: relative;
@@ -317,7 +343,46 @@ a:visited {
 	margin-right: 40px;
 
 	
+}*/
+
+
+body.custom-background{
+	width: 100%;
+	margin-left: 0px;
+	
+
 }
 
+html,
+body {
+   margin:0;
+   padding:0;
+   height: 100%;
+}
 
+.geral{
+	width: 900px;
+	height: 100%;
+	margin-left: -450px;
+	left: 50%;
+	background-color: white;
+	position: relative;
+	
+	
+}
 
+#postsingle{
+	margin: 0 auto;
+	width: 60%;
+	background-color: white;
+	padding: 3%;
+	position: relative;
+}
+.avatar img {
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border-radius: 50%;
+
+ }

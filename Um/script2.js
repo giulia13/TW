@@ -1,6 +1,10 @@
 $(document).ready(function(){
-$('div').hide();
+$('.perfil').click(function(){
 
 
+$('.perfil').hide();
+
+
+});
 });
     

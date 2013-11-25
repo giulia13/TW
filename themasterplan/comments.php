@@ -1,10 +1,4 @@
-
-
-
-
-<?php
-// Do not delete these lines NÃO FOI ENVIADOOOOO
-    if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+﻿<?php if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
         die ('Please do not load this page directly. Thanks!');
  
     if ( post_password_required() ) { ?>
@@ -13,8 +7,7 @@
         return;
     }
 ?>
- 
-<div id="comments">
+ <div id="comments">
     <h3><?php comments_number('0 Comentários', '1 Comentário', '% Comentários' );?></h3>
  
     <?php if ( have_comments() ) : ?>

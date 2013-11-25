@@ -1,13 +1,7 @@
-<?php
-/*
-Template Name: Archives
-*/
-get_header(); ?>
-
+<?php get_header(); ?>
 <div class="geral">
     <p>ISOOO AUQI</p>
-    
-    <div id="post">
+       <div id="post">
 
         <?php the_post(); ?>
         <h1 class="entry-title"><?php the_title(); ?></h1>
@@ -25,9 +19,6 @@ get_header(); ?>
         </ul>
 
     </div><!-- #content -->
-
-
 <?php get_sidebar();?>  
-
 <?php get_footer();?>
 </div>

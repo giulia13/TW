@@ -1,15 +1,10 @@
 <?php get_header(); ?>
+<div class="geral">
+              <div id="category">
 
-          
-        
+              <div class="titulo_pg_descricao" id="titulo_pg_category">
 
-        <div class="geral">
-            <div class = "semfooter">
-             <div id="category">
-
-             	<div class="titulo_pg_descricao" id="titulo_pg_category">
-
-				<?php if (is_home()){
+        <?php if (is_home()){
                 bloginfo('name');
                 }elseif (is_category()){
                 wp_title('',true);
@@ -18,7 +13,7 @@
                 </div>
 
              <ul>
-				  <?php if (have_posts()): while (have_posts()) : the_post();?>
+          <?php if (have_posts()): while (have_posts()) : the_post();?>
 
                   <li>
                   <div id="tamb"><img src="<?php video_thumbnail(); ?>" width="150" height="100" /></div>
@@ -40,13 +35,6 @@
             </div>
 
             <div class="paginator"><?php wp_pagenavi(); ?></div><!--paginator-->
-
-      
-
-        
-
-     
- <?php get_sidebar(); ?> 
-</div>
+   <?php get_sidebar(); ?> 
 <?php get_footer(); ?>
   </div>  

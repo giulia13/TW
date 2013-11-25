@@ -1,4 +1,4 @@
-
+﻿
 /*
 Theme Name: the masterplan
 Theme URI: http://exemplo.com/exemplo/
@@ -18,154 +18,62 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 /* 1) ÁREA DO AUTOR, COMENTÁRIOS E LINK PARA COMPARTILHAR */
 
-#caixa{
-	
-	padding: 5px;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 11px;
-	background-color: white;
-	 	
-}
-
-
-#comentarios{
-		padding-top: -15px;
-		display: inline;
-}
-#compartilhe{
-	/*margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 10px; 
-	*/
-	display: inline;
-	padding-left: 25px;
-	padding-top: -15px;
-
- 
-}
-.data{
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 10px;
-	margin-top: -3px;
-	font-color: gray;
-	text-align: left;
-	
-}
-
- /* FIM DA 1  */
-
+#caixa{ padding: 5px; font-family: 'Pontano Sans', sans-serif; font-size: 11px; background-color: white;}
+#comentarios{ padding-top: -15px; display: inline;}
+#compartilhe{ display: inline; padding-left: 25px; padding-top: -15px; }
+#data{ font-family: 'Pontano Sans', sans-serif; font-size: 13px; font-color: black; padding-top: 10px; float: right;}
 
 /* 2) SIDEBAR  */
 
 .perfil{
-	
-	/*width: 247px;*/
-	width: 20%;
-	background-color: white;
-	/*box-shadow:0px 2px 1px #FAFAFA;*/
-	position: absolute;
-	top: 4%;
-	height: auto;
-	/*margin-left: 13%; */
-	left: 2%;
-	padding-bottom: 10px;
-}
-	
-
-	
+	width: 100%;
+	top: 3%;
+	border-bottom: 1px solid #B8B8B8;
+	position: relative;
 	}
-
-/*.desaparecer{
-width: 10px;
-height: 10px;
-box-shadow: #000 1px 1px 1px;
-border-radius:100px;
-background-color: black;
-position: relative;
-margin: auto;
-color: white;
-font-size: 10px;
-
-}	
-.aparecer{
-width: 10px;
-height: 10px;
-border-radius:100px;
-background-color: #DDDDDD;
-margin-left: 115px;
-font-size: 10px;
-z-index: 2;
-
-}	
-*/
-#avatar{
-margin: 0 auto;
-
-
+ 
+a {
+text-decoration: none;
+color: #444;
 }
-
-#descricao{
-
-font-family: 'Pontano Sans', sans-serif;
-font-size: 12px;
-width: 150px; /* 160 */
-text-align:justify;
-margin: 0 auto;
-margin-top: 17px;
-border-bottom: 1px solid #DDDDDD;
-
-	
-	
-} 
+ 
+a:hover {
+color: red;
+}
+.avatar{
+height:120px;
+width: 120px;
+margin-top:2%;
+margin-left:3%;
+}
+.info{
+	height: 15%;
+	width: 70%;
+	margin-left: 18%;
+	margin-top: -10%;
+	text-align: left;
+}
 
 .widget{
 	width: 150px;
-	text-align: left;
 	font-family: 'Pontano Sans', sans-serif;
-	margin: 0 auto;
 	font-size: 11px;
 	border-bottom: 1px solid #DDDDDD;
 	
    }
-
-#blogtitulo{
-	font-size:17px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 3%;
-	text-decoration: underline;
-	text-transform: uppercase;
-	font-family: 'Sintony', sans-serif;
-	background-color: white;
-
+#home{
+		font-family: 'Pontano Sans', sans-serif;
+		color: black;
+		text-decoration:none;
+		font-size: 25px;
+		
 }
-
-
-   
-/*color:black;
-   -webkit-transition: all 400ms ;
-   -moz-transition: all 400ms ;
-   transition: all 400ms ;
-    border-bottom: 1px solid #DDDDDD;*/   
-	
 
 /* FIM DA 2 */
 
 
 /* 3) TÍTULO E DATA */
-
-#linha1{
-	
-
-}
-#titulopost{
-	padding: 5px;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 14px;
-	text-align: left;
-	text-transform: uppercase;
-	text-align: left;
-	
+#titulopost {padding: 5px; 	font-family: 'Pontano Sans', sans-serif; font-size: 23px; text-align: left; width: 78%;
 }
 
 /* FIM DA 3 */
@@ -183,11 +91,6 @@ border-bottom: 1px solid #DDDDDD;
 
 }
 FIM DA 4 */
-
-
-
-
-
 .header{
 	margin:0px;
 	width:0px;
@@ -199,8 +102,8 @@ FIM DA 4 */
 #footer{
 	height: 20px;
 	width: 100%;
-	
-	background-color: #E6E6E6;
+	bottom: 0;	
+	background-color: white;
 	border-top: 1px solid #B8B8B8;
 	 position:absolute; 
 	 font-family: 'Pontano Sans', sans-serif;
@@ -211,20 +114,9 @@ FIM DA 4 */
 }
 
 
-#post{
-	width:72%;
-	/*margin-top: 36px; */
-	margin-left: 25%;
-	margin-top: 3%;
-	background-color: white;
-	float: left;
-	
-
-	/*margin-left: 15px;
-	margin-right: 15px;*/
-	
-}
-
+.clear{  
+    clear: both;  
+}  
 /*.sidebar{
 	width:248px;
 	height: 600px;
@@ -248,25 +140,14 @@ FIM DA 4 */
 	
 }
 */
-
-
 .texto{
 	padding: 5px;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 13px;
 	text-align: justify;
 	color: black;
-	
 	border-bottom: 1px solid #DDDDDD;
-	
 }
-
-
-
-
-
-
-
 /*#b1{
 	font-family: 'Pontano Sans', sans-serif;
 	color: black; 
@@ -274,7 +155,6 @@ FIM DA 4 */
 	display: inline;
 	padding-right: 20px;
 	font-size: 13px;	
-
 }
 
 #b2{
@@ -284,39 +164,7 @@ FIM DA 4 */
 		font-size: 13px;
 					
 }*/
-.home{
-		font-family: 'Pontano Sans', sans-serif;
-		color: black;
-		margin-left: 500px; 
-		text-align: center;
-		text-decoration:none;
-		font-size: 11px;
-		clear: both;
-	
 
-}
-
-
-
-}
-div.perfil:hover {
-
-	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
-	box-shadow: 0 0 3px rgba(0,0,0,0.2);
-	border-right: 0px;
-
-	}
-
-
-
-	div.sidebar:hover {
-	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
-	box-shadow: 0 0 3px rgba(0,0,0,0.2);
-
-	}
-	#layout{
-		background-color: red;
-	}
 
 a:link {
 	text-decoration: none;
@@ -345,37 +193,29 @@ a:visited {
 	
 }*/
 
-
 body.custom-background{
 	width: 100%;
 	margin-left: 0px;
-	
-
 }
 
-html,
-body {
-   margin:0;
-   padding:0;
-   height: 100%;
+body, html {
+ height: 100%;
+ padding: 0;
 }
-
 .geral{
-	width: 900px;
-	height: 100%;
-	margin-left: -450px;
+	width: 970px;
+	margin-left: -485px;
 	left: 50%;
 	background-color: white;
 	position: relative;
-	
-	
+	padding-bottom: 35px;
+	overflow: hidden;
 }
 
 #postsingle{
 	margin: 0 auto;
-	width: 60%;
+	width: 880px;
 	background-color: white;
-	padding: 3%;
 	position: relative;
 }
 .avatar img {
@@ -386,3 +226,29 @@ body {
  border-radius: 50%;
 
  }
+
+#gridcontainer{ width: 100%; height: inherit;}
+
+#gridcontainer h2 a{/*color: #77787a;*/color: black; font-size: 13px;}
+
+.griditemleft{float: left; width: 278px; margin-top: 10px; margin-left: 20px; }
+
+.griditemright{float: left; width: 278px; margin-right: 20px; margin-top: 10px;}
+.griditemmeio{float: left; width: 278px; margin-top: 10px; margin-left: 40px; margin-right: 40px; }
+
+.postimage{
+	margin: 0 0 10px 0;
+	width: 290px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+.clear{
+	content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
